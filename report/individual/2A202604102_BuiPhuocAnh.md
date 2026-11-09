@@ -28,7 +28,6 @@
 
 **AI gợi ý thêm:** Sau khi tự scan được 7 ý đầu, dùng AI gợi ý và chọn thêm ý #8, #9, #10. Đã loại bỏ ý "Trợ lý AI tự động gọi điện thoại xoa dịu khách hàng giận dữ" vì rủi ro cao đối với trải nghiệm người dùng và vượt quá mức độ tự động hóa mà công ty cho phép hiện tại.
 
--
 
 ---
 
