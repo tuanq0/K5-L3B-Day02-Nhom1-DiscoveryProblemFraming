@@ -191,7 +191,7 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
-* **Phản biện:** Success metric "giảm thời gian xuống 30 phút" là chưa đủ. Báo cáo làm nhanh nhưng chất lượng kém (phân loại sai, ngữ cảnh rác) thì PM cũng sẽ không dùng.
+* **Phản biện từ AI:** Success metric "giảm thời gian xuống 30 phút" là chưa đủ. Báo cáo làm nhanh nhưng chất lượng kém (phân loại sai, ngữ cảnh rác) thì PM cũng sẽ không dùng.
 * **Nhóm đồng ý:** Đã bổ sung thêm tiêu chí đánh giá chất lượng (không bịa tag, có trích dẫn thật) vào phiên bản v1 bên dưới.
 
 ## 6. Mức can thiệp AI (CP6)
@@ -292,4 +292,4 @@ Vì sao: Quy trình đầu vào/đầu ra cực kỳ rõ ràng, tĩnh (lặp l�
 
 ## 10. Tài liệu tham khảo
 
-* Báo cáo cá nhân của 5 thành viên Nhóm 1 (Đào Hồng Thắng, Nguyễn Trung Dũng, Trần Văn Tuấn, Nguyễn Quốc Toàn, Bùi Phước Anh).
+* Báo cáo cá nhân của 5 thành viên Nhóm 1.
