@@ -21,24 +21,15 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
 | 1 |Cần đọc, tổng hợp nhiều thông tin |Khi ôn thi học phần, tôi muốn tổng hợp kiến thức từ giáo trình, slide và ghi chép, để nắm được các nội dung trọng tâm. Sinh viên |Ước tính phải đọc 3–5 nguồn/môn, mất 2–4 giờ tổng hợp |
-	
-| 2 |Lặp lại |Khi nhận bài tập từ nhiều môn học, tôi muốn theo dõi đầy đủ yêu cầu và hạn nộp, để không bỏ sót nhiệm vụ quan trọng |Sinh viên, học sinh có btvn |Ước tính 4–6 bài/tuần, mất 15–20 phút/ngày kiểm tra |
-		
-| 3 |Lặp lại |Khi học ngoại ngữ, tôi muốn ghi nhớ và ôn lại những từ vựng thường quên, để cải thiện khả năng sử dụng ngôn ngữ |Người học ngoại ngữ |Ước tính học 20–30 từ/tuần, quên khoảng 5–10 từ nếu không ôn tập |
-			
-| 4 |Lặp lại |Khi quản lý chi tiêu cá nhân, tôi muốn biết tiền đã sử dụng vào những khoản nào, để tránh vượt quá ngân sách |Sinh viên sống tự lập |Ước tính có 3–5 khoản chi/ngày, mất 10–15 phút ghi chép |
-			
-| 5 |Cần đọc, tổng hợp nhiều thông tin |Khi làm bài nghiên cứu, tôi muốn kiểm tra sự thống nhất giữa nội dung và tài liệu tham khảo, để tránh thiếu nguồn trích dẫn. |Sinh viên làm nghiên cứu |Ước tính kiểm tra 10–20 tài liệu, mất 1–2 giờ/bài |
-			
-| 6 |Tốn thời gian |Khi di chuyển trong thời tiết mưa lớn, tôi muốn biết những đoạn đường đang bị ngập và tìm được tuyến đường không bị ngập có thể đi qua, để di chuyển an toàn, tránh mất thời gian và đến nơi đúng giờ. |Sinh viên, người đi làm, người tham gia giao thông |Ước tính mất 10–20 phút tìm kiếm thông tin về các đoạn đường ngập và tuyến đường thay thế. Có thể phải quay đầu hoặc đi đường vòng khi gặp đoạn đường ngập bất ngờ. |
-				
-| 7 |Cần đọc, tổng hợp nhiều thông tin |Khi tìm kiếm cơ hội thực tập, tôi muốn so sánh yêu cầu tuyển dụng của nhiều doanh nghiệp, để lựa chọn vị trí phù hợp với năng lực. |Sinh viên năm 3, năm 4 |Ước tính đọc 10–15 tin tuyển dụng, mất 1–2 giờ/lần tìm kiếm.
-			
-| 8 |Tốn thời gian |Khi tham gia các nhóm lớp trên mạng xã hội, tôi muốn nhanh chóng tìm được thông báo quan trọng, để không bỏ lỡ thông tin từ giảng viên và lớp trưởng. |Sinh viên |Ước tính có 50–100 tin nhắn/ngày, mất 15–20 phút tìm thông báo cũ. |
-			
-| 9 |Tốn thời gian|Khi chuẩn bị bữa ăn hằng ngày, tôi muốn quyết định nhanh món ăn phù hợp, để không mất nhiều thời gian suy nghĩ và lựa chọn.|Sinh viên, người nội trợ|Ước tính mất 15–30 phút/ngày để nghĩ món ăn.|
-			
-| 10 |Tốn thời gian|Khi di chuyển vào giờ cao điểm, tôi muốn biết tuyến đường ít ùn tắc, để đến trường hoặc nơi làm việc đúng giờ |Sinh viên, người đi làm |Ước tính mất thêm 15–30 phút/ngày do tắc đường|
+| 2 |Lặp lại |Khi nhận bài tập từ nhiều môn học, tôi muốn theo dõi đầy đủ yêu cầu và hạn nộp, để không bỏ sót nhiệm vụ quan trọng |Sinh viên, học sinh có btvn |Ước tính 4–6 bài/tuần, mất 15–20 phút/ngày kiểm tra |		
+| 3 |Lặp lại |Khi học ngoại ngữ, tôi muốn ghi nhớ và ôn lại những từ vựng thường quên, để cải thiện khả năng sử dụng ngôn ngữ |Người học ngoại ngữ |Ước tính học 20–30 từ/tuần, quên khoảng 5–10 từ nếu không ôn tập |			
+| 4 |Lặp lại |Khi quản lý chi tiêu cá nhân, tôi muốn biết tiền đã sử dụng vào những khoản nào, để tránh vượt quá ngân sách |Sinh viên sống tự lập |Ước tính có 3–5 khoản chi/ngày, mất 10–15 phút ghi chép |			
+| 5 |Cần đọc, tổng hợp nhiều thông tin |Khi làm bài nghiên cứu, tôi muốn kiểm tra sự thống nhất giữa nội dung và tài liệu tham khảo, để tránh thiếu nguồn trích dẫn. |Sinh viên làm nghiên cứu |Ước tính kiểm tra 10–20 tài liệu, mất 1–2 giờ/bài |			
+| 6 |Tốn thời gian |Khi di chuyển trong thời tiết mưa lớn, tôi muốn biết những đoạn đường đang bị ngập và tìm được tuyến đường không bị ngập có thể đi qua, để di chuyển an toàn, tránh mất thời gian và đến nơi đúng giờ. |Sinh viên, người đi làm, người tham gia giao thông |Ước tính mất 10–20 phút tìm kiếm thông tin về các đoạn đường ngập và tuyến đường thay thế. Có thể phải quay đầu hoặc đi đường vòng khi gặp đoạn đường ngập bất ngờ. |				
+| 7 |Cần đọc, tổng hợp nhiều thông tin |Khi tìm kiếm cơ hội thực tập, tôi muốn so sánh yêu cầu tuyển dụng của nhiều doanh nghiệp, để lựa chọn vị trí phù hợp với năng lực. |Sinh viên năm 3, năm 4 |Ước tính đọc 10–15 tin tuyển dụng, mất 1–2 giờ/lần tìm kiếm.			
+| 8 |Tốn thời gian |Khi tham gia các nhóm lớp trên mạng xã hội, tôi muốn nhanh chóng tìm được thông báo quan trọng, để không bỏ lỡ thông tin từ giảng viên và lớp trưởng. |Sinh viên |Ước tính có 50–100 tin nhắn/ngày, mất 15–20 phút tìm thông báo cũ. |			
+| 9 |Tốn thời gian |Khi chuẩn bị bữa ăn hằng ngày, tôi muốn quyết định nhanh món ăn phù hợp, để không mất nhiều thời gian suy nghĩ và lựa chọn.|Sinh viên, người nội trợ|Ước tính mất 15–30 phút/ngày để nghĩ món ăn.|			
+| 10 |Tốn thời gian |Khi di chuyển vào giờ cao điểm, tôi muốn biết tuyến đường ít ùn tắc, để đến trường hoặc nơi làm việc đúng giờ |Sinh viên, người đi làm |Ước tính mất thêm 15–30 phút/ngày do tắc đường|
 
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
@@ -53,7 +44,6 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-
 | 1 |Khó lựa chọn tuyến đường ít ùn tắc vào giờ cao điểm |Xảy ra thường xuyên, ảnh hưởng đến sinh viên và người đi làm. Có thể đo thời gian di chuyển và xác định bước nghẽn. |Thông tin ùn tắc có chính xác không? Có thể giảm bao nhiêu phút di chuyển? |
 | 2 |Mất thời gian tổng hợp kiến thức từ nhiều tài liệu| Sinh viên thường gặp khi ôn thi. Quy trình rõ ràng, dễ xác định bước tốn thời gian nhất. |Có thể rút ngắn thời gian mà vẫn đảm bảo kiến thức chính xác, đầy đủ không? | 
 | 3 |Không biết đoạn đường nào bị ngập và tuyến đường nào có thể đi được khi trời mưa lớn |Ảnh hưởng trực tiếp đến việc đi lại, đặc biệt vào mùa mưa. Có quy trình rõ ràng, điểm nghẽn cụ thể và có thể thử nghiệm bằng dữ liệu tình trạng ngập đường. |Làm thế nào để biết chính xác đoạn đường đang ngập, mức độ ngập và tuyến đường thay thế có thực sự an toàn để di chuyển? |
