@@ -164,53 +164,59 @@ Mình tách riêng phần chờ vì nếu cộng tất cả lại thành “th�
 
 ---
 
-## 4. Tôi đã tham gia phần nào (CP3 → CP7)
+## 4. Tôi đã tham gia phần nào (CP3 đến CP7)
 
-| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
-|---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+Phần cá nhân của tôi có ba Problem Card về review PR, đối chiếu chi tiêu và sắp xếp lịch họp nhóm. Tôi ưu tiên card review PR vì đây là công việc mình quen thuộc, có bước đọc và đối chiếu logic khá rõ. Báo cáo nhóm đưa cả ba vấn đề này vào danh sách candidate. Card PR được chấm 26 điểm, còn bài báo cáo VoC được chọn với 32 điểm.
+
+Đầu ra CP3 đến CP6 do trưởng nhóm dùng ChatGPT Free tạo. Tôi chưa cung cấp được ghi chép về câu hỏi đã trực tiếp đặt cho bạn khác, người phản biện mình hoặc phần việc cụ thể mình đã sửa trong báo cáo nhóm. Vì vậy, tôi không nhận các phần gom cluster, phỏng vấn, research, vẽ quy trình hay viết Problem Statement là đóng góp riêng của mình.
+
+Trong phần cá nhân, tôi đã ghi lại các chỉnh sửa sau phản biện của AI. Tôi chỉ dùng mức 10 đến 15 phút cho PR có code chồng lấn, không áp dụng cho tất cả PR. Với chi tiêu, tôi chuyển trọng tâm từ làm nhanh sang ghi đủ giao dịch và đối soát ít lệch. Với lịch họp, tôi tách thời gian chờ phản hồi khỏi thời gian thao tác.
 
 ---
 
 ## 5. Dùng AI
 
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-|---|---|---|---|---|
-| CP1 Scan | Tham khảo cách viết Job Story và gợi ý thêm các vấn đề để tự chọn lọc. | Giúp mình nhìn lại vấn đề theo actor và bối cảnh. | Có gợi ý về mua sắm cho gia đình, không khớp việc mình sống một mình; vài gợi ý khác chưa có trải nghiệm để chứng minh. | Giữ những chuyện mình đã gặp, sửa lại thành mua sắm cá nhân và ghi rõ số liệu nào mới chỉ là ước tính. |
-| CP2 Problem Card | Nhờ phản biện ba card, nhất là phần bottleneck, metric và khả năng giải quyết không cần AI. | Nhắc mình không suy rộng thời gian của PR có conflict sang mọi PR, và không coi việc làm nhanh hơn là đủ nếu số liệu chi tiêu vẫn lệch. | Không có dữ liệu để xác nhận thời gian từng bước; các target mới là đề xuất. | Tách rõ quan sát với giả định, chọn metric phù hợp từng vấn đề và ưu tiên thử phương án đơn giản trước. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+Ở CP1, tôi dùng AI để tham khảo cách viết Job Story và gợi ý thêm góc nhìn. Có gợi ý về mua sắm gia đình không phù hợp với việc tôi sống một mình nên tôi sửa thành mua sắm cá nhân. Những gợi ý không có trải nghiệm để chứng minh thì tôi không giữ lại.
+
+Ở CP2, tôi dùng AI phản biện bottleneck, metric và phương án không dùng AI. Phần hữu ích là chỉ ra việc suy rộng thời gian review PR và việc chỉ đo tốc độ tổng kết chi tiêu. Tuy nhiên, AI không có dữ liệu để xác nhận thời gian từng bước. Tôi ghi rõ các số nào là ước lượng và các target nào mới là đề xuất.
+
+Ở CP3 đến CP6, trưởng nhóm dùng ChatGPT Free tạo đầu ra chung. Tôi không coi việc đó là nhật ký sử dụng AI của riêng mình. Các số liệu, kết quả giả lập và nhận định trong bản nhóm vẫn cần đối chiếu với bằng chứng thực tế. Ví dụ, phần kiểm chứng ghi phỏng vấn giả lập nên không thể xem là đã phỏng vấn hai người thật.
+
+Ở CP7, tôi nhờ AI đọc yêu cầu, đối chiếu tài liệu và hỗ trợ chuẩn bị bản nháp. Bản nháp này không thay thế phần reflection tự viết theo quy định của bài.
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+Bản nháp có AI hỗ trợ diễn đạt từ thông tin đã cung cấp và báo cáo hiện có. Phần reflection cần tự viết lại trước khi nộp theo yêu cầu của bài.
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+6.1. Tôi học được gì từ các problems của các bạn khác?
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Từ các card được ghi trong báo cáo nhóm, tôi thấy một vấn đề quen thuộc với mình chưa chắc là lựa chọn phù hợp nhất cho cả nhóm. Card review PR có tình huống cụ thể nhưng dữ liệu nằm trong repo riêng, khó mang ra thử trong lab. Bài VoC có đầu vào và đầu ra rõ hơn. Việc chọn bài cần xét cả khả năng lấy dữ liệu và kiểm chứng, không chỉ xét mình thích chủ đề nào.
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+6.2. Nhóm có bị solution-first không?
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Tôi chưa có ghi chép để kể lại một cuộc trao đổi cụ thể của nhóm. Tuy nhiên, bản nhóm có những cách diễn đạt bắt đầu từ công cụ, như cần AI tóm tắt lịch sử chat. Khi đọc lại, cần tách cách làm đó khỏi nhu cầu thật là nắm được bối cảnh mà không phải đọc lại nhiều hội thoại. Một đầu ra đầy đủ do ChatGPT tạo chưa chứng minh nhóm đã tự đi qua các bước lập luận này.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+6.3. Tôi có đổi ý sau phản biện không?
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Ví dụ đã có trong phần cá nhân là cách tính thời gian review PR. Khoảng 10 đến 15 phút chỉ phù hợp với PR có phần code chồng lấn. Nếu lấy số đó nhân với khoảng 10 PR mỗi tuần thì sẽ làm mức ảnh hưởng có vẻ lớn hơn thực tế. Tôi đã giới hạn lại phạm vi của con số và ghi cần đếm tỷ lệ PR thuộc trường hợp này. Đây là phản biện từ AI ở CP2, không phải một cuộc phản biện trực tiếp với bạn trong nhóm.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+6.4. Tôi nhìn nhận kết quả kiểm chứng thế nào?
+
+Điểm cần nhìn nhận rõ là báo cáo nhóm ghi phỏng vấn giả lập. Vì vậy, những câu nói và số liệu trong phần đó chưa thể được dùng như bằng chứng từ người dùng thật. Mức dưới 30 phút cũng là mục tiêu dự kiến, chưa phải kết quả đã chạy thử. Tôi chưa có kết quả kiểm chứng thật của riêng mình để kể lại. Phần này cần được bổ sung bằng việc hỏi đúng người và ghi lại hành vi cụ thể đã xảy ra.
+
+6.5. Điểm khó khi viết Problem Statement là gì?
+
+Với bài này, điểm cần giải quyết kỹ là nối bottleneck với metric và chất lượng đầu ra. Gán tag nhanh hơn chưa đủ nếu tag sai hoặc trích dẫn không đúng ý khách. Metric cũng cần thống nhất cách đếm, vì báo cáo hiện có cả cách ghi 4 trên 5 báo cáo bị hỏi lại và 4 lần mỗi tháng. Tôi chưa có căn cứ để nhận mình là người đã viết hay sửa các trường này trong bản nhóm.
+
+6.6. Nếu làm lại, tôi sẽ đổi gì?
+
+Tôi sẽ bắt đầu bằng việc xác nhận nguồn dữ liệu và cách đo trước khi dùng AI tạo một bản báo cáo dài. Tôi sẽ hỏi người thật về lần làm báo cáo gần nhất, đo thời gian từng bước và giữ lại ví dụ ticket đã bỏ thông tin cá nhân. Câu cần phản biện mạnh hơn là nhóm đã có bằng chứng nào để chốt Go. Tôi cũng sẽ ghi phần việc và câu hỏi của mình ngay trong lúc làm, thay vì đến cuối mới thiếu căn cứ cho reflection.
+
+6.7. Hiểu bài - bản ôn tập
+
+Bài nhóm giải quyết việc CS mất nhiều thời gian làm báo cáo VoC tuần, trong khi PM cần biết ba vấn đề nổi bật kèm bối cảnh khách hàng. Quy trình hiện tại đi từ xuất CSV Intercom, đọc và gán tag, đếm bằng Pivot Table, tìm trích dẫn, điền Docs rồi gửi cho PM; hai điểm nghẽn là gán tag và tìm ngữ cảnh. Báo cáo nhóm nêu khoảng 120 phút làm baseline và đặt mục tiêu dưới 30 phút, nhưng đây chưa phải kết quả pilot đã đo. AI chỉ tạo bản nháp, dữ liệu cần bỏ thông tin cá nhân và CS phải kiểm tra tag, số đếm cùng trích dẫn trước khi duyệt gửi. Nhóm chọn Workflow vì các bước đã xác định trước, AI hỗ trợ hiểu văn bản, còn Rule vẫn có thể dùng để đếm sau khi nhãn đã được kiểm. Theo lập luận của nhóm, Rule theo từ khóa khó bao quát ngữ cảnh, còn việc tự quyết bước tiếp theo của Agent chưa cần thiết cho chuỗi công việc cố định này. Nhóm chốt Go cho pilot hai tuần và sẽ quay về cách gán tag thủ công, Pivot Table nếu tỷ lệ bịa tag lớn hơn 10 phần trăm hoặc trích xuất sai ý khách hàng.
 
 ---
 
