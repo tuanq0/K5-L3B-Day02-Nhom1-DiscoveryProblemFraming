@@ -63,6 +63,7 @@ OUTCOME: Giảm thiểu tối đa thời gian và công sức lãng phí khi ph�
 ├── Opportunity B: Cần rút ngắn thời gian đọc hiểu và chắt lọc thông tin cốt lõi từ nhiều nguồn nội dung dài/phức tạp (Bao hàm Cluster C, D, I).
 ├── Opportunity C: Cần nắm bắt sự kiện, tình trạng biến động theo thời gian thực để phản ứng/ra quyết định kịp thời (Bao hàm Cluster F, H).
 └── Opportunity D: Cần giảm độ trễ và sự phụ thuộc khi phải thu thập, thống nhất thông tin từ nhiều người khác (Bao hàm Cluster E, J).
+```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
