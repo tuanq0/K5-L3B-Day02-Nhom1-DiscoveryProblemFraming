@@ -130,16 +130,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày 3 ý tưởng, trong đó nhấn mạnh nhất bài toán: "Tổng hợp, phân loại ticket thành báo cáo VoC tuần cho PM". Phân tích rõ đầu vào (CSV) và đầu ra (Docs). | Thuyết phục được nhóm chọn bài toán này làm Candidate cuối cùng vì có quy trình rõ ràng nhất và tính khả thi cao (Zone of control) để làm lab. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt cho ý tưởng "Tìm đường tránh ngập" của Toàn: "Làm thế nào để cập nhật chính xác và real-time tình trạng ngập khi thời tiết thay đổi liên tục?" | Giúp nhóm nhận ra rào cản lớn về hạ tầng dữ liệu thời gian thực (real-time data), từ đó đồng thuận loại bỏ các ý tưởng vĩ mô vượt quá sức lab. |
+| Nhận phản biện | Câu hỏi tôi nhận được: "Làm sao để 'dạy' AI hiểu đúng taxonomy (hệ thống tag) của công ty mà không bịa ra tag mới (Hallucination)?" | Tôi đã sửa gì: Đưa rủi ro này vào Problem Statement, thêm yêu cầu ép taxonomy cứng vào System Prompt và bắt buộc phải có bước con người kiểm duyệt (Human-in-the-loop) trước khi gửi. |
+| Gom cluster / cây OST | Đề xuất gom các bài toán của tôi vào Cluster G (Phân tích tín hiệu khách hàng) và tham gia xây dựng Opportunity B (Rút ngắn thời gian đọc hiểu và chắt lọc thông tin dài/phức tạp). | Giúp nhóm không bị sa đà vào giải pháp (solution-first) mà nhìn nhận đúng bản chất nỗi đau là sự lãng phí thời gian xử lý dữ liệu phi cấu trúc. |
+| Chọn candidate problem | Bảo vệ quan điểm chọn bài toán VoC dựa trên tiêu chí "Vừa sức lab" và "Khả năng so sánh các mức AI". | Nhóm thống nhất chấm điểm 35/35 cho bài toán VoC và loại bỏ các bài toán vướng bảo mật code (PR) hay dữ liệu GPS (Xe buýt). |
+| Kiểm chứng / research | Tìm hiểu và so sánh công cụ Intercom AI Insights (Native) với phương án ghép nối Zapier/Make.com + OpenAI. Đóng vai thực hiện phỏng vấn giả định CS và PM. | Rút ra bài học: Dùng Workflow (Make + OpenAI) rẻ và dễ tùy biến format báo cáo hơn công cụ native. Nhận ra điểm nghẽn kép (đếm tag và trích xuất ngữ cảnh). |
+| Quy trình nhóm | Vẽ quy trình AS-IS (6 bước) và TO-BE (4 bước), bóc tách rõ thời gian bottleneck ở khâu đọc và gán tag thủ công (60-80 phút). | Làm nổi bật được giá trị của AI khi chuyển vai trò của CS từ "người thực thi" (nhập liệu) sang "người kiểm duyệt" (reviewer). |
+| Problem Statement | Định nghĩa lại mốc thời gian, impact, và success metric (Giảm thời gian từ 120p xuống 30p; số lần PM hỏi lại bối cảnh về 0). | Đóng khung chặt chẽ bài toán, thiết lập các tiêu chí đánh giá nghiệm thu (Acceptance Criteria) rõ ràng cho khâu test prompt. |
+| Mức can thiệp AI | Đánh giá 4 mức độ can thiệp (No AI, Rule, Workflow, Agent) dựa trên ma trận độ phức tạp/mơ hồ và trả lời 2 câu hỏi PAIR. | Chốt phương án Workflow. Bác bỏ phương án Rule (do Text mơ hồ) và phương án Agent (do rủi ro tự động gửi báo cáo sai). |
+| Quyết định | Tham gia phân tích 4 rủi ro (Value, Usability, Feasibility, Viability) và đề xuất phương án Shadow Testing (Kiểm thử mù) cho Pilot. | Chốt quyết định "GO" an toàn và có phương pháp luận rõ ràng để mang đi thực hành ở các lab tiếp theo. |
 
 ---
 
@@ -149,30 +149,36 @@ Quy trình nháp hiện tại:
 |---|---|---|---|---|
 | CP1 Scan | Cung cấp 7 vấn đề ban đầu, yêu cầu AI đóng vai CS Manager gợi ý thêm các pain point liên quan đến xử lý ticket và training nhân sự. | Đã gợi ý rất đúng nỗi đau về việc tổng hợp Q&A cho Newbie (ý #9) và trả lời tin nhắn hàng loạt sau khi release app (ý #8). | AI gợi ý một số ý tưởng quá viển vông, ví dụ: "Dùng Voice AI tự động gọi điện xoa dịu khách hàng khi họ tức giận". | Tôi gạch bỏ các ý tưởng có rủi ro cao về trải nghiệm khách hàng (Customer Experience). Chỉ giữ lại những task liên quan đến xử lý text (văn bản) nội bộ. |
 | CP2 Problem Card | Yêu cầu AI đóng vai Product Manager khó tính để "bắt lỗi" các Problem Card tôi vừa viết, đặc biệt chú ý vào tính khả thi và cách đo lường. | Chỉ ra được lỗ hổng trong việc gộp chung các bước quy trình (gán tag và viết báo cáo là 2 bottleneck khác nhau), giúp làm rõ bottleneck thực sự. | Khi phản biện Card #2, AI khuyên dùng chỉ số CSAT (Customer Satisfaction Score) để làm Success Metric cho việc tóm tắt log chat nhanh. | Nhận định của tôi là CSAT có độ trễ và phụ thuộc vào kết quả xử lý cuối cùng, không phản ánh ngay việc "đọc log chat nhanh". Tôi tự đổi thành FRT (First Response Time) - thời gian phản hồi đầu tiên. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Yêu cầu AI đóng vai PM để phỏng vấn giả định (Mock Interview) về những gì họ thực sự muốn thấy trong báo cáo VoC; hỏi AI các công cụ tự động hóa Intercom hiện có. | Đã giúp tôi nhận ra PM quan tâm nhiều nhất đến "trích dẫn bối cảnh (context)" chứ không chỉ là con số lỗi đếm được. Gợi ý công cụ Make.com. | AI khuyên nên mua luôn gói Intercom AI Insights (Native Tool) thay vì tự build Workflow bên ngoài. | Tôi bác bỏ vì Intercom AI Insights là bản Enterprise đắt đỏ, không phù hợp với nguồn lực làm lab và khó tùy biến format báo cáo cho PM. Tôi chọn hướng ghép nối Make.com + OpenAI. |
+| CP5 Quy trình | Cung cấp quy trình AS-IS (6 bước) và nhờ AI đề xuất cách rút gọn thành TO-BE bằng mô hình LLM. | AI đã gom rất khéo các bước "đọc lướt", "gán tag", "đếm Top 3" và "trích xuất trích dẫn" vào chung 1 node xử lý duy nhất của LLM. | AI đề xuất quy trình tự động hóa 100%: LLM sinh báo cáo xong tự động bắn thẳng qua Slack cho PM mà không cần CS xem lại. | Tôi nhận thấy rủi ro (AI có thể hallucinate bịa ra lỗi sai), nên đã thêm bước "Con người kiểm duyệt (HITL)" vào giữa. CS bắt buộc phải duyệt draft trước khi gửi. |
+| CP5–6 Problem Statement | Nhờ AI review lại tiêu chí đánh giá (Acceptance Criteria) cho đầu ra của LLM. | Nhắc nhở tôi về việc AI có thể tự chế ra các thẻ tag không có thật (Ví dụ: tự bịa tag "Lỗi mạng" thay vì dùng tag chuẩn "Connectivity"). | AI viết Problem Statement bằng văn phong quá "marketing", tập trung ca ngợi giải pháp thay vì đóng khung vấn đề kỹ thuật. | Tôi tự viết lại hoàn toàn Problem Statement theo đúng template khắt khe của môn học: Actor rõ ràng, Impact đo lường được, và Boundary (Giới hạn can thiệp) được siết chặt. |
+| CP6 Mức can thiệp / quyết định | Đưa thông tin bài toán và nhờ AI đánh giá 4 rủi ro (Value, Usability, Feasibility, Viability) để chốt quyết định Go/No-Go. | AI phân tích rất sắc sảo về rủi ro Viability: Nguy cơ rò rỉ dữ liệu cá nhân (PII) của khách hàng khi ném nguyên file CSV log chat lên OpenAI. | AI đánh giá rủi ro Feasibility (Khả thi) là "Trung bình/Cao" vì cho rằng prompt engineering để trích xuất dữ liệu rất phức tạp. | Tôi hạ mức rủi ro Feasibility xuống "Thấp (An toàn)" vì bài toán phân loại văn bản (Text Classification) hiện tại LLM làm cực kỳ tốt. Để xử lý rủi ro PII, tôi bổ sung phương án làm mờ dữ liệu định danh trước khi gọi API. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+## 6. Reflection (CP7)
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Tôi nhận ra rằng một "vấn đề tốt" để đưa vào lab không chỉ nằm ở việc nó gây đau đớn (painful) hay có tác động lớn (impactful) đến đâu, mà quan trọng nhất là tính khả thi (feasibility) và vùng kiểm soát (zone of control). Các bài toán của Tuấn và Toàn (dự đoán xe buýt, tránh đường ngập) rất thiết thực nhưng đòi hỏi dữ liệu thời gian thực và phụ thuộc API bên thứ 3. Bài toán review code của Dũng thì vướng bảo mật repo công ty. Điều này dạy tôi rằng khi framing problem, phải đánh giá ngay nguồn lực mình đang có và khả năng xây dựng dataset để kiểm thử nhanh chóng. 
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có, ngay khi tôi vừa pitch bài toán VoC, cả nhóm đã lao vào bàn luận "Hay là mình code một con AI Agent đọc thẳng Intercom rồi tự động nhắn tin qua Slack cho PM luôn, không cần CS nhúng tay vào". Chúng tôi bị cuốn vào sự "tiện lợi" của giải pháp Agent. Nhóm chỉ giật mình nhận ra khi làm bước phân tích Quy trình (AS-IS) và đánh giá rủi ro: nếu Agent tự động gửi sai báo cáo lỗi, hậu quả ai chịu? Từ đó nhóm quay ngược lại, tập trung vào điểm nghẽn cốt lõi (nỗi đau phải đọc thủ công) và hạ mức can thiệp xuống Workflow có con người kiểm duyệt (HITL).
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Có. Ban đầu tôi quá tin tưởng vào khả năng của LLM, cho rằng cứ ném file CSV vào là nó tự biết phân loại. Khi Dũng phản biện: *"Làm sao đảm bảo AI không tự bịa ra các tag mới (hallucinate) làm nát hệ thống taxonomy hiện tại của công ty?"*, tôi đã phải suy nghĩ lại. Tôi đổi ý, không để AI tự do phân loại nữa mà thiết lập Boundary cực kỳ chặt chẽ: AI bắt buộc phải map dữ liệu vào bộ tag cố định được nạp sẵn, và đầu ra phải là bản nháp (draft) để con người chốt cuối cùng.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Điều làm tôi bất ngờ nhất là insight từ "người tiêu thụ báo cáo" - Product Manager. Ban đầu, tôi định hướng AI chỉ cần đếm đúng số lượng ticket cho từng tag (ví dụ: 50 lỗi UI, 20 lỗi Payment) là đủ để đo lường. Nhưng qua đóng vai phỏng vấn, tôi nhận ra PM thực sự không quan tâm những con số vô hồn đó, họ cần "bối cảnh" (khách hàng phàn nàn nguyên văn như thế nào). Điều này buộc tôi phải thiết kế lại quy trình TO-BE, yêu cầu AI không chỉ đếm tag mà còn phải trích xuất được "Context / Quote", thay đổi hoàn toàn cách tôi định hình tiêu chí đánh giá đầu ra của AI.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khó nhất là viết sao cho hoàn toàn "sạch" bóng dáng của giải pháp. Rất dễ để vô thức viết "Bottleneck là do CS không có công cụ AI để đọc lướt nhanh", hoặc định nghĩa Boundary là "AI dùng Make.com". Tôi đã phải gạch xóa nhiều lần để miêu tả thuần túy về nỗi đau nghiệp vụ (đọc chữ bằng mắt, đếm tay) và các con số baseline (thời gian 120 phút), đảm bảo người đọc Problem Statement xong chưa cần biết sẽ dùng công nghệ gì để giải.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại, ở khâu gom nhóm (Cluster) và OST, tôi sẽ đẩy mạnh việc bóc tách nguyên nhân gốc rễ (root cause) của các problem khác. Ví dụ với bài toán "Điền template banner" của Thắng, tôi sẽ phản biện mạnh hơn để chỉ ra đây thuần túy là vấn đề thiếu kỹ năng dùng tools tự động hóa (No-code / Script), chứ không thực sự cần đến khả năng suy luận của AI, từ đó giúp nhóm tiết kiệm thời gian tranh luận ở vòng shortlist. Với bài của mình, tôi sẽ cố gắng quy đổi Success Metric từ "thời gian" sang "chi phí nhân sự tiết kiệm được" để thuyết phục hơn.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.7. Hiểu bài:** Bài toán của nhóm xuất phát từ việc nhân sự CS tốn quá nhiều thời gian đọc và gán tag thủ công hàng chục ticket để làm báo cáo VoC gửi PM mỗi tuần. Quy trình AS-IS bị nghẽn trực tiếp ở khâu đọc hiểu và trích xuất ngữ cảnh. Nhóm đặt metric thành công là giảm thời gian xử lý xuống dưới 30 phút, đồng thời PM không phải hỏi lại thông tin bối cảnh. Để kiểm soát rủi ro LLM bịa thông tin, nhóm thiết lập boundary cứng: AI chỉ làm nhiệm vụ sinh bản nháp báo cáo (draft), con người bắt buộc phải tham gia kiểm duyệt (HITL) trước khi gửi. Từ đó, mức can thiệp AI được chốt là Workflow tự động hóa thay vì dùng AI Agent. Dựa trên rào cản kỹ thuật thấp (xử lý text cơ bản) và rủi ro vận hành nằm trong tầm kiểm soát, nhóm ra quyết định "Go".
 
 ---
 
