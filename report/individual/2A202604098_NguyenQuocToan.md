@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202604098_NguyenQuocToan
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -172,15 +172,19 @@ Quy trình nháp hiện tại:
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: 3
+- Vì sao: Đây là vấn đề thực tế, thường xảy ra vào mùa mưa, đặc biệt tại các thành phố lớn. Việc không biết trước đoạn đường nào bị ngập khiến người tham gia giao thông mất thời gian tìm đường thay thế, có nguy cơ đi vào khu vực nguy hiểm hoặc làm hư hỏng phương tiện. Vấn đề có đối tượng chịu ảnh hưởng rõ ràng, quy trình cụ thể và có thể đo lường hiệu quả thông qua thời gian tìm đường và độ chính xác của thông tin ngập.
+- Câu hỏi muốn nhóm phản biện: Làm thế nào để cập nhật chính xác tình trạng ngập của các tuyến đường và đề xuất tuyến đường thay thế phù hợp, an toàn khi tình hình ngập có thể thay đổi liên tục?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+|Thông tin về tình trạng ngập đường có thể thay đổi nhanh chóng, khiến dữ liệu không còn chính xác.|Có |Bổ sung yêu cầu kiểm tra thời gian cập nhật và độ tin cậy của nguồn thông tin trước khi đề xuất tuyến đường.|
+|Một tuyến đường chưa có thông báo ngập không có nghĩa là tuyến đường đó an toàn. |Có |Phân biệt tuyến đường đã được xác nhận không ngập với tuyến đường chưa có đủ thông tin.|
+|Việc xây dựng hệ thống theo dõi ngập theo thời gian thực quá phức tạp đối với một buổi lab.|Có	|Thu hẹp phạm vi thử nghiệm tại một khu vực cụ thể, sử dụng dữ liệu mô phỏng về các đoạn đường bị ngập.|
+|Chưa có số liệu thực tế chứng minh người tham gia giao thông mất bao nhiêu thời gian để tìm đường tránh ngập.|Có |Đề xuất khảo sát 10–15 người và đo thời gian tìm tuyến đường thay thế trong một tình huống giả lập.|
+|Chưa chứng minh được việc sử dụng AI hiệu quả hơn các công cụ bản đồ thông thường.|Có |Bổ sung phương án không dùng AI và đề xuất so sánh thời gian, độ chính xác khi lựa chọn tuyến đường giữa các phương án.|
 
 ---
 
