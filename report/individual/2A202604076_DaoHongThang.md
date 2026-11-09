@@ -7,7 +7,7 @@
 ## 1. Thông tin học viên
 
 - Họ tên: Đào Hồng Thắng
-- MSSV: 2A202604092
+- MSSV: 2A202604076
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: nhóm 1
 - Link repo nhóm: https://github.com/tuanq0/K5-L3B-Day02-Nhom1-DiscoveryProblemFraming.git
@@ -128,12 +128,12 @@ Tìm thông tin → đọc giá, lãi suất, phí và điều kiện → so sá
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Tôi đưa ra ba candidate: tự động điền dữ liệu Excel vào banner, theo dõi thu chi và so sánh chi phí khi mua sản phẩm giá trị lớn/trả góp. Trong đó, tôi muốn pitch Card #3 nhất. | Dù Card #3 là lựa chọn tôi muốn pitch, nhóm không chọn card này làm đề tài cuối. Nhóm chọn **Báo cáo VoC (Anh)**: phân loại và tổng hợp ticket Intercom thành báo cáo Voice of Customer hằng tuần cho PM. |
-| Phản biện bài của bạn khác |   |  |
-| Nhận phản biện | Với Card #1 về banner, nhóm đặt câu hỏi vì sao cần AI thay vì dùng script/rule để điền template cố định. | Câu hỏi giúp làm rõ cần cân nhắc giải pháp đơn giản hơn AI;  |
+| Phản biện bài của bạn khác | Chưa ghi nhận trong báo cáo nhóm và phần bài cá nhân hiện có. | Chưa có bằng chứng để mô tả một lần phản biện cụ thể. |
+| Nhận phản biện | Với Card #1 về banner, nhóm hỏi vì sao cần AI thay vì dùng script/rule để điền template cố định. | Tôi ghi rõ phương án không dùng AI là dùng template cố định cùng script/workflow; câu hỏi cũng giúp phân biệt bài toán tự động hóa cấu trúc với bài toán cần xử lý ngôn ngữ tự nhiên. |
 | Gom cluster / cây OST | Tôi tham gia gom các candidate theo pattern chung và xây cây OST với outcome tối ưu hiệu suất xử lý thông tin. | Nhóm xác định cơ hội giảm thao tác đọc, phân loại và trích xuất dữ liệu văn bản định kỳ; Báo cáo VoC (Anh) phù hợp với cơ hội này. |
-| Chọn candidate problem | Tôi tham gia xem xét shortlist và tiêu chí chấm điểm. | Báo cáo nhóm ghi nhận Báo cáo VoC (Anh) đạt 35/35 và được chọn: tự động hóa việc phân loại, tổng hợp ticket Intercom thành báo cáo VoC tuần cho PM.  |
+| Chọn candidate problem | Tôi tham gia xem xét shortlist và tiêu chí chấm điểm. | Báo cáo nhóm ghi nhận Báo cáo VoC (Anh) đạt 32/35 và được chọn: tự động hóa việc phân loại, tổng hợp ticket Intercom thành báo cáo VoC tuần cho PM. |
 | Kiểm chứng / research | Tôi tham gia xem xét kết quả phỏng vấn CS Executive và PM, cùng research các hướng như Zapier/Make.com tích hợp OpenAI và Intercom Fin AI/AI Insights. | Bằng chứng cho thấy quy trình báo cáo mất khoảng 120 phút mỗi thứ Sáu và PM hỏi thêm context ở 4/5 báo cáo gần nhất; nhóm bổ sung yêu cầu đếm đúng Top 3 tag và trích xuất context. |
-| Quy trình nhóm | Tôi tham gia phân tích quy trình Báo cáo| Nhóm xác định hai bottleneck: đọc/gán tag thủ công 60–80 phút và lọc context 20 phút; mục tiêu là giảm tổng thời gian từ khoảng 120 xuống dưới 30 phút. |
+| Quy trình nhóm | Tôi tham gia phân tích quy trình báo cáo VoC trước và sau khi áp dụng AI. | Nhóm xác định hai bottleneck: đọc/gán tag thủ công 60–80 phút và lọc context 20 phút; mục tiêu là giảm tổng thời gian từ khoảng 120 xuống dưới 30 phút. |
 | Problem Statement | Tôi tham gia xây dựng Problem Statement cho Báo cáo VoC, xác định actor là CS Executive và PM tại EdTech Startup, bottleneck, impact và metric. | Mục tiêu là giảm thời gian làm báo cáo từ 120 xuống dưới 30 phút và giảm số lần PM hỏi thêm context từ 4 lần/tháng xuống 0; CS phải duyệt bản nháp trước khi gửi. |
 | Mức can thiệp AI | Tôi tham gia so sánh No AI, Rule, Workflow và Agent cho Báo cáo VoC. | Nhóm chọn Workflow để AI phân loại intent theo taxonomy có sẵn, đếm Top 3 và tạo nháp báo cáo; CS kiểm tra, chỉnh sửa trước khi gửi. |
 | Quyết định | Tôi tham gia thống nhất quyết định Go cho Báo cáo VoC (Anh). | Nhóm đề xuất pilot trên CSV của tuần trước, đối chiếu Top 3 với kết quả thủ công và đánh giá thời gian cũng như chất lượng context; nếu hallucination tag vượt 10% sau 2 tuần thì quay về phương án khác. |
@@ -159,20 +159,35 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Khi nghe các vấn đề của các bạn, tôi nhận ra một ý tưởng có thể nghe giống như một bài toán cần AI nhưng thực chất chỉ cần tự động hóa theo quy tắc. Điều này cũng đúng với ý tưởng điền dữ liệu Excel vào template banner của tôi: dữ liệu đã có cấu trúc và vị trí cần điền tương đối cố định, nên script hoặc rule có thể phù hợp hơn. Tôi học được rằng cần bắt đầu từ nhu cầu và quy trình hiện tại, sau đó mới cân nhắc công cụ, thay vì mặc định chọn AI.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có. Ý tưởng banner của tôi ban đầu đã gắn với cách làm cụ thể: tự động điền dữ liệu vào template và có thể dùng AI tạo ảnh. Câu hỏi phản biện “vì sao cần AI thay vì script/rule?” giúp tôi nhận ra mình đã nghĩ đến giải pháp trước khi chứng minh rằng vấn đề cần AI. Nhóm xử lý bằng cách xem lại bản chất công việc và ghi nhận phương án không dùng AI là dùng template cố định cùng script hoặc workflow. Qua đó, tôi hiểu rằng một giải pháp đơn giản hơn vẫn có thể giải quyết phần lớn nỗi đau.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Tôi đã thay đổi cách nhìn về mức độ cần thiết của AI trong ý tưởng banner. Phản biện cho rằng workflow là đủ và dùng AI có thể làm phát sinh thêm chi phí. Tôi thấy nhận xét này hợp lý vì thao tác chính là chuyển dữ liệu có cấu trúc vào một mẫu cố định, không nhất thiết cần khả năng suy luận ngôn ngữ của AI. Vì vậy, khi đánh giá ý tưởng, tôi sẽ so sánh với phương án rule hoặc script trước thay vì chỉ tập trung vào khả năng dùng AI.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Tôi chưa ghi nhận một phát hiện cụ thể từ kiểm chứng hoặc research khiến mình bất ngờ. Tuy vậy, nội dung nhóm tổng hợp giúp tôi thấy vấn đề báo cáo VoC không chỉ nằm ở thời gian phân loại ticket mà còn ở công sức tìm lại ngữ cảnh để PM hiểu vấn đề. Theo báo cáo nhóm, quy trình mất khoảng 120 phút mỗi thứ Sáu và PM đã hỏi thêm chi tiết ở 4 trong 5 báo cáo gần nhất. Đây là những dữ kiện hữu ích để nhóm xác định đầu ra cần có cả số liệu Top 3 tag lẫn trích dẫn ngữ cảnh.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Phần khó nhất với tôi là xác định boundary: AI có thể hỗ trợ đến đâu và việc gì vẫn phải do con người quyết định. Với bài toán VoC, AI có thể phân loại ticket, tổng hợp số liệu và tạo bản nháp, nhưng nếu tự gửi báo cáo khi chưa được kiểm tra thì tag sai hoặc trích dẫn sai có thể ảnh hưởng đến quyết định của PM. Vì vậy, boundary cần nêu cụ thể rằng CS phải đọc, đối chiếu và duyệt bản nháp trước khi gửi. Tôi nhận ra boundary không chỉ là một lưu ý về rủi ro mà còn giúp xác định vai trò của con người trong quy trình mới.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, tôi sẽ mô tả vấn đề và bằng chứng trước, rồi mới đề xuất giải pháp. Với ý tưởng của mình, tôi sẽ đo rõ tần suất làm banner và thời gian từng bước, đồng thời thử xác định phần nào script có thể xử lý trước khi cân nhắc AI. Khi thảo luận bài toán VoC, tôi cũng sẽ hỏi kỹ hơn cách kiểm tra độ chính xác của tag và quote, cách bảo vệ dữ liệu khách hàng, và điều kiện để CS có thể tin tưởng bản nháp. Những câu hỏi này giúp nhóm không chỉ hướng đến tiết kiệm thời gian mà còn làm rõ chất lượng và giới hạn an toàn của đầu ra.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Bài toán nhóm chọn là việc CS mất nhiều thời gian đọc và phân loại ticket Intercom để làm báo cáo VoC hằng tuần, trong khi PM đôi khi phải hỏi lại ngữ cảnh. Quy trình hiện tại gồm xuất CSV, gán tag, đếm Top 3, tìm quote, soạn báo cáo rồi gửi cho PM; tổng thời gian khoảng 120 phút. Nhóm đặt mục tiêu giảm thời gian làm báo cáo xuống dưới 30 phút và giảm số lần PM hỏi thêm context từ 4 lần mỗi tháng xuống 0. AI chỉ được tạo bản nháp, còn CS phải kiểm tra và duyệt trước khi gửi. Nhóm chọn mức Workflow để nối việc phân loại, tổng hợp và tạo báo cáo, thay vì để Agent tự gửi kết quả. Quyết định cuối cùng là Go, với pilot đối chiếu kết quả AI cùng báo cáo thủ công và dừng hoặc quay lại cách cũ nếu chất lượng không đạt ngưỡng.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- [Báo cáo nhóm — Day 02 Discovery & Problem Framing](../team/group_report.md)
+- [Worksheet — hướng dẫn chi tiết từng checkpoint](../../docs/01-worksheet.md)
