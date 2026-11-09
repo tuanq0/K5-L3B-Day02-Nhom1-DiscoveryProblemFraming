@@ -20,18 +20,15 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| 1 | Tốn thời gian | Khi chờ bến xe bus, tôi muốn biết bao giờ xe đến để biết có nên đứng tiếp hay làm việc riêng | Người đi xe bus | ở những bến vắng xe đôi khi phải đứng chờ đến 30 phút mới có xe đến |
+| 2 | Cần đọc, tổng hợp nhiều thông tin | Khi kiểm tra sự kiện khuyến mãi, tôi muốn biết những đồ cần thiết có không | người mua, người bán | app shoppe có nhiều khuyến mãi nhưng không tìm kiếm khuyến mãi được |
+| 3 | Tốn thời gian | Khi ôn thi 1 môn thì muốn tổng hợp nội dung để không phải giở sách từng chương có trong đề để học | người học | thi tnthpt không phải dạng bài nào trong sách giáo khoa cũng có trong đề |
+| 4 | Cần đọc, tổng hợp nhiều thông tin | Khi muốn xem một bộ phim, tôi muốn được đưa ra các phương án có thể chọn | người xem, rạp chiếu phim | các rạp chiếu phim sẽ có những bộ phim khác nhau tùy sắp xếp của rạp |
+| 5 | Pain từ người khác | Khi con học tiểu học/THCS, phụ huynh muốn biết con đang học gì, bài tập nào chưa nộp để khỏi phải hỏi con hoặc đợi cô nhắn | Phụ huynh bận đi làm, giáo viên chủ nhiệm | Thông tin rải rác ở nhóm Zalo lớp, sổ liên lạc, lời con kể. Phỏng vấn 3-5 phụ huynh và 1-2 giáo viên |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--
+- gợi ý phụ huynh muốn biết con đang học gì thì giữ lại vì thấy nhiều phụ huynh hay gọi con khi ở trường để hỏi tình hình.
 
 ---
 
@@ -41,9 +38,9 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 |  Khi chờ bến xe bus, tôi muốn biết bao giờ xe đến để biết có nên đứng tiếp hay làm việc riêng | Vì chờ xe bus mệt mỏi nhưng nếu đi ra chỗ khác có thể bị lỡ chuyến | cách tính toán thời gian sao cho hợp lí |
+| 2 | Khi ôn thi 1 môn thì muốn tổng hợp nội dung để không phải giở sách từng chương có trong đề để học | Vì để tận dụng thêm thời gian chuẩn bị cho bài thi tốt hơn | đảm bảo tính nguyên vẹn và liền mạch của kiến thức |
+| 3 | Khi con học tiểu học/THCS, phụ huynh muốn biết con đang học gì, bài tập nào chưa nộp để khỏi phải hỏi con hoặc đợi cô nhắn | để bố mẹ bớt lo lắng và đỡ gọi cho con cái nhiều hơn | con cái sẽ không chịu bị kiểm soát như thế |
 
 ### Problem Card #1
 
