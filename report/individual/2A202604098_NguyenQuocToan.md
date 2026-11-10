@@ -251,12 +251,11 @@ Bài toán nhóm chọn là việc CS Executive mất nhiều thời gian tổng
 
 ## 7. Tài liệu tham khảo
 
-1. Nhóm 1. (2026). *Báo cáo nhóm — Day 02 Discovery & Problem Framing*, các mục 2–8. `report/team/group_report.md` trong repository nhóm.
-2. Fitzpatrick, R. (2013). *The Mom Test: How to Talk to Customers & Learn If Your Business Is a Good Idea When Everyone Is Lying to You*.
-3. Torres, T. (2021). *Continuous Discovery Habits*. Product Talk.
-4. Bland, D. J., & Osterwalder, A. (2019). *Testing Business Ideas*. Wiley.
-5. Google PAIR. *People + AI Guidebook*. https://pair.withgoogle.com/guidebook/
-6. Anthropic. *Building Effective Agents*. https://www.anthropic.com/research/building-effective-agents
-7. Intercom. *AI*. https://www.intercom.com/ai
-8. OpenAI. *ChatGPT*. https://chatgpt.com
-9. Make. *Make platform*. https://www.make.com
+1. Fitzpatrick, R. (2013). *The Mom Test: How to Talk to Customers & Learn If Your Business Is a Good Idea When Everyone Is Lying to You*.
+2. Torres, T. (2021). *Continuous Discovery Habits*. Product Talk.
+3. Bland, D. J., & Osterwalder, A. (2019). *Testing Business Ideas*. Wiley.
+4. Google PAIR. *People + AI Guidebook*. https://pair.withgoogle.com/guidebook/
+5. Anthropic. *Building Effective Agents*. https://www.anthropic.com/research/building-effective-agents
+6. Intercom. *AI*. https://www.intercom.com/ai
+7. OpenAI. *ChatGPT*. https://chatgpt.com
+8. Make. *Make platform*. https://www.make.com
